@@ -4,5 +4,4 @@ WORKDIR /go
 ADD . /go
 RUN apk update && \
     apk add git vim
-EXPOSE 8081
-CMD go run main.got
+CMD go run main.go
